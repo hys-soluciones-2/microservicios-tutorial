@@ -1,0 +1,11 @@
+## YAML Template.
+## YAML Template.
+spring:
+  application:
+    name: config-service
+  cloud:
+    config:
+      enable: true
+      uri: http://localhost:8081
+  
+

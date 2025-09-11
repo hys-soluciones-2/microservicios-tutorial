@@ -1,0 +1,9 @@
+## YAML Template.
+spring:
+  application:
+    name: motoMicroservicio
+  cloud:
+    config:
+      enable: true
+      uri: http://localhost:8081
+  

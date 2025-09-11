@@ -1,0 +1,10 @@
+## YAML Template.
+spring:
+  application:
+    name: carroMicroservicio
+  cloud:
+    config:
+      enable: true
+      uri: http://localhost:8081
+  
+
