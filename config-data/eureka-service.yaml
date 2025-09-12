@@ -1,0 +1,6 @@
+server:
+  port: 8761
+euroka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false

@@ -1,7 +1,7 @@
 ## YAML Template.
 ---spring:
   application:
-    name: usuario-microservice
+    name: eureka-service
   cloud:
     config:
       enable: true
