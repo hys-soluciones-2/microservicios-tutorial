@@ -1,8 +1,7 @@
-## YAML Template.
----spring:
+spring:
   application:
     name: usuario-microservice
   cloud:
     config:
-      enable: true
-      uri: http://localhost:8081
+      enabled: true
+      uri: http://localhost:8888

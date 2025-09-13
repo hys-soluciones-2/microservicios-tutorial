@@ -1,8 +1,7 @@
-## YAML Template.
----spring:
+spring:
   application:
     name: eureka-service
   cloud:
     config:
-      enable: true
+      enabled: false
       uri: http://localhost:8081

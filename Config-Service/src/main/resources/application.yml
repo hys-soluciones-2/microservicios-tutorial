@@ -1,13 +1,21 @@
-## YAML Template.
 server:
-  port: 8081
+  port: 8888
+
+##spring:
+ ## application:
+  ##  name: config-service
+ ## cloud:
+ ##   config:
+   ##   server:
+    ##    native:
+      ##    search-locations: classpath:/config-data
 spring:
   cloud:
     config:
       server:
         git:
           default-label: eureka
-          uri: https://github.com/hys-soluciones-2/microservicios-tutorial
+          uri: https://github.com/hys-soluciones-2/microservicios-tutorial.git
           search-paths: config-data
   application:
     name: config-service
